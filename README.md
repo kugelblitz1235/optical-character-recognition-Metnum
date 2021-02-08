@@ -40,17 +40,9 @@ cd data && gunzip *.gz && cd ..
 jupyter lab
 ```
 
-Listo. Ya pueden disfrutar del TP2
-
 ### Datos
 
 En `data/` tenemos los datos de entrenamiento (`data/train.csv`) y los de test (`data/test.csv`).
-
-### Otros directorios
-
-En `src/` está el código de C++, en particular en `src/metnum.cpp` está el entry-point de pybind.
-
-En `notebooks/` hay ejemplos para correr partes del TP usando sklearn y usando la implementación en C++.
 
 
 ## Creación de un entorno virtual de python
@@ -66,25 +58,25 @@ Luego, se sugiere agregar unas líneas al bashrc. Hacer eso, **REINICIAR LA CONS
 ```
 pyenv install 3.6.5
 pyenv global 3.6.5
-pyenv virtualenv 3.6.5 tp2
+pyenv virtualenv 3.6.5 ocr
 ```
 
 En el directorio del proyecto
 
 ```
-pyenv activate tp2
+pyenv activate ocr
 ```
 
 ### Directamente con python3
 ```
-python3 -m venv tp2
-source tp2/bin/activate
+python3 -m venv ocr
+source ocr/bin/activate
 ```
 
 ### Con Conda
 ```
-conda create --name tp2 python=3.6.5
-conda activate tp2
+conda create --name ocr python=3.6.5
+conda activate ocr
 ```
 
 ## Instalación de las depencias
