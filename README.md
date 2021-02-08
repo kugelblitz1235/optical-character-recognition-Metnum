@@ -1,5 +1,4 @@
-# Reconocimiento de dígitos: TP2 de Métodos Numéricos
-## 2020, 1er cuatrimestre
+# Reconocimiento de dígitos: Métodos Numéricos
 
 ## Instrucciones
 
